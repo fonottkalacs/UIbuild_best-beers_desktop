@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+}
+
+body {
+    background: #ffeedf;
+    font-family: 'Space Grotesk', sans-serif;
+    height: 100vh;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 8px 6px 8px;
+    padding-bottom: 6px;
+    width: calc(100vw - 16px);
+    color: #145434;
+    position: fixed;
+    top: 0;
+    border-bottom: #145434  solid 1px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    width: 800px;
+}
+
+.card {
+    background: #145434;
+    width: 300px;
+    height: 190px;
+    color: #ffeedf;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+}
+
+h2 {
+    margin: 0 0 30px 30px;
+}
+
+.specification {
+    margin: 0 0 19px 30px;
+    border-top: 1px solid #ffeedf;
+    padding-top: 10px;
+    width: 240px;
+    
+}
+
+.bold-text {
+    font-weight: 700;
+}
+
+.light-text {
+    font-weight: 500;
+}
+
+p {
+    font-size: 15px;
+}
+
+.ranking {
+    font-size: 20px;
+    
+}
+
+.circle {
+    width: 25px;
+    height: 25px;
+    background: #ffeedf;
+    border-radius: 50%;
+    color: #145434;
+    border: solid 2px #145434;
+    position: absolute;
+    top: -16px;
+    left: -16px;
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    width: 145px;
+    height: 35px;
+    background: #ffeedf;
+    color: #145434;
+    font-size: 10px;
+    font-family: 'Space Grotesk', sans-serif;
+    border: solid 3px #145434;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: -8px;
+    right: -8px;
+    padding-right: 0;
+}
+
+.arrow {
+    position: relative;
+    left: 40px;
+}
+
+
+
