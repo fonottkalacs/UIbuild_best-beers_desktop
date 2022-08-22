@@ -21,6 +21,10 @@ nav {
     border-bottom: #145434  solid 1px;
 }
 
+h1 {
+    font-size: 100;
+}
+
 main {
     display: flex;
     justify-content: center;
@@ -98,19 +102,27 @@ p {
     color: #145434;
     font-size: 10px;
     font-family: 'Space Grotesk', sans-serif;
-    border: solid 3px #145434;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    border: solid 2px #145434;
     position: absolute;
     bottom: -8px;
     right: -8px;
     padding-right: 0;
 }
 
+.button-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .arrow {
     position: relative;
-    left: 40px;
+    left: 35px;
+}
+
+.details {
+    position: relative;
+    left: 8px;
 }
 
 
